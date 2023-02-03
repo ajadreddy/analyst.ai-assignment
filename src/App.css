@@ -1,38 +1,45 @@
-.App {
-  text-align: center;
+body{
+    background-color: rgb(205, 215, 223);
+    display: flex;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.box button{
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 20px;
+    background-color: rgb(255, 46, 46);
+    color: white;
+    cursor: pointer;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.box{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #ffffff;
+    height: 150px;
+    width: 800px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 8px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.box div{
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.pagination{
+    text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.pagination button{
+    border: none;
+    height: 30px;
+    margin: 3px;
+    width: 30px;
+    border-radius: 8px;
+    background-color: rgb(255, 46, 46);
+    color: white;
+    cursor: pointer;
 }
